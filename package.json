@@ -7,8 +7,17 @@
   "keywords": [],
   "author": "Jeff Zucker",
   "license": "MIT",
+  "scripts": {
+    "test": "cd node_modules/karma/bin && karma start"
+  },
   "dependencies": {
     "rdflib": "^2.2.31",
     "solid-namespace": "^0.5.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^4.6.0",
+    "karma": "^6.4.1",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^5.1.0"
   }
 }
